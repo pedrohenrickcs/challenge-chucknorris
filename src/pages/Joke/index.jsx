@@ -24,21 +24,17 @@ const Joke = () => {
         )
     }
 
-    if (loading) {
-        return (
-            <Loading />
-        )
-    }
-
-    const { value } = joke;
-
     return (
         <>
             <Header />
             <div className='container joke'>
-                <div className='joke__description'>
-                    {value}
-                </div>
+                {!loading ? (
+                    <div className='joke__description'>
+                        {joke.value}
+                    </div>
+                ) : (
+                    <Loading />
+                )}
 
                 <Link to="/">
                     <span className='joke__button'>Back to category</span>
