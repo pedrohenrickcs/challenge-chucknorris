@@ -1,0 +1,16 @@
+.header {
+    align-items: center;
+    background-color: $white;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        color: $primary-color;
+        text-transform: uppercase;
+    }
+}

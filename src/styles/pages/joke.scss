@@ -1,0 +1,36 @@
+.joke {
+    text-align: center;
+
+    &__description {
+        background-color: $secondary-color;
+        border-radius: 20px;
+        color: $white;
+        font-size: $base-font-size;
+        margin: 60px 0;
+        padding: $padding * 5;
+        text-align: center;
+    }
+
+    a {
+        background-color: #5B2C6F;
+        border: 0;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 12px;
+        margin: 8px;
+        padding: $padding * 2;
+        text-decoration: none;
+    }
+
+    &__button {
+        color: $white;
+        font-size: $base-font-size;
+    }
+}
+
+@media (max-width: 768px) {
+    .joke {
+        display: flex;
+        flex-direction: column;
+    }
+}
