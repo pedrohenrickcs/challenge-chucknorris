@@ -1,4 +1,6 @@
 .joke {
+    text-align: center;
+
     &__description {
         background-color: $secondary-color;
         border-radius: 20px;
@@ -23,5 +25,12 @@
     &__button {
         color: $white;
         font-size: $base-font-size;
+    }
+}
+
+@media (max-width: 768px) {
+    .joke {
+        display: flex;
+        flex-direction: column;
     }
 }
