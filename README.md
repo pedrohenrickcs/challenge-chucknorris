@@ -11,7 +11,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Clone este repositório
 $  git clone <https://github.com/pedrohenrickcs/challenge-chucknorris.git>
 
-# 💢 Acesse a pasta do projeto no terminal de preferência
+### 💢 Acesse a pasta do projeto no terminal de preferência
 $ cd challenge-chucknorris
 
 ### ⚙ Instale as dependências
