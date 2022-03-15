@@ -16,24 +16,20 @@ const Joke = () => {
         loadJoke(params.category);
     }, [loadJoke, params.category])
 
-    console.log('params', params);
-
-    if (!joke && !loading) {
-        return (
-            <NotFound title="Erro ao buscar :(" />
-        )
-    }
-
     return (
         <>
             <Header />
             <div className='container joke'>
                 {!loading ? (
                     <div className='joke__description'>
-                        {joke.value}
+                        {joke?.value}
                     </div>
                 ) : (
                     <Loading />
+                )}
+
+                {!joke?.value && !loading && (
+                    <NotFound title="Erro ao buscar :(" />
                 )}
 
                 <Link to="/">
