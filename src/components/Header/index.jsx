@@ -1,7 +1,9 @@
 const Header = () => {
     return (
         <div className='header'>
-            <h1>Joke Norris</h1>
+            <a href="/">
+                <h1>Joke Norris</h1>
+            </a>
         </div>
     )
 }

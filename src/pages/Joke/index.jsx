@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 import { useJokesCategory } from '../../stores/jokes';
+import Loading from '../../components/Loading';
 import NotFound from '../NotFound';
 
 const Joke = () => {
@@ -24,7 +25,7 @@ const Joke = () => {
 
     if (loading) {
         return (
-            <div>loading</div>
+            <Loading />
         )
     }
 

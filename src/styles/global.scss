@@ -1,7 +1,8 @@
-@import './utils/core.scss';
+@import './utils/core';
 
-@import './components/header.scss';
+@import './components/header';
+@import './components/loading';
 
-@import './pages/home.scss';
-@import './pages/joke.scss';
-@import './pages/notFound.scss';
+@import './pages/home';
+@import './pages/joke';
+@import './pages/notFound';
