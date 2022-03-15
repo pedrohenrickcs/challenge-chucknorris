@@ -2,10 +2,19 @@
     align-items: center;
     background-color: $white;
     display: flex;
-    height: 70px;
+    padding: ($padding * 2) 0;
     justify-content: center;
 
+    img {
+        border-radius: 50px;
+        height: 80px;
+        margin: 8px;
+        width: auto;
+    }
+
     a {
+        align-items: center;
+        display: flex;
         text-decoration: none;
     }
 
