@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/challenge-chucknorris/static/css/main.48df5599.css",
+    "main.js": "/challenge-chucknorris/static/js/main.302f2a4f.js",
+    "index.html": "/challenge-chucknorris/index.html",
+    "main.48df5599.css.map": "/challenge-chucknorris/static/css/main.48df5599.css.map",
+    "main.302f2a4f.js.map": "/challenge-chucknorris/static/js/main.302f2a4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48df5599.css",
+    "static/js/main.302f2a4f.js"
+  ]
+}
