@@ -1,0 +1,12 @@
+.header {
+    align-items: center;
+    background-color: $white;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+
+    h1 {
+        color: $primary-color;
+        text-transform: uppercase;
+    }
+}

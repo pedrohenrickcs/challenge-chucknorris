@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-import Button from '@mui/material/Button';
-
 import { useJokesCategory } from '../../stores/jokes';
 
 const Joke = () => {
@@ -30,12 +28,14 @@ const Joke = () => {
     const { value } = joke;
 
     return (
-        <div>
-            {value}
+        <div className='container joke'>
+            <div className='joke__description'>
+                {value}
+            </div>
 
-            <Button variant="contained" onClick={() => {loadJoke(params.category)}}>
+            <button variant="contained" onClick={() => {loadJoke(params.category)}}>
                 Reload
-            </Button>
+            </button>
         </div>
     )
 }
