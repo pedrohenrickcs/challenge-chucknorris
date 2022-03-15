@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 import { useJokesCategory } from '../../stores/jokes';
+import NotFound from '../NotFound';
 
 const Joke = () => {
     const loadJoke = useJokesCategory(state => state.loadJoke);
@@ -13,9 +14,11 @@ const Joke = () => {
         loadJoke(params.category);
     }, [loadJoke, params.category])
 
+    console.log('params', params);
+
     if (!joke && !loading) {
         return (
-            <div>erro ao buscar piada</div>
+            <NotFound title="Erro ao buscar :(" />
         )
     }
 
@@ -33,9 +36,13 @@ const Joke = () => {
                 {value}
             </div>
 
-            <button variant="contained" onClick={() => {loadJoke(params.category)}}>
-                Reload
-            </button>
+            <a href="/">
+                <span className='joke__button'>Back to category</span>
+            </a>
+
+            <a onClick={() => {loadJoke(params.category)}}>
+                <span className='joke__button'>Reload new Joke</span>
+            </a>
         </div>
     )
 }
