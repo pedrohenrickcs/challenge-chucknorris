@@ -32,6 +32,10 @@
 
 @media (max-width: 768px) {
     .home {
+        &__categories {
+            padding-bottom: 100px;
+        }
+
         &__items {
             flex: 1 1 100%;
         }

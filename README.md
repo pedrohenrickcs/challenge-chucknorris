@@ -15,7 +15,7 @@ $  git clone <https://github.com/pedrohenrickcs/challenge-chucknorris.git>
 $ cd challenge-chucknorris
 
 ### ⚙ Instale as dependências
-$ yarn ou npm install
+$ yarn install ou npm install
 
 ### ✨Executando o projeto
 $ yarn start ou npm run start

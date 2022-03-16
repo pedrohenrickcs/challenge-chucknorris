@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useCategoriesJoker } from '../../stores/category';
 
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 const Home = () => {
     const loadCategories = useCategoriesJoker(state => state.loadCategories);
@@ -27,6 +28,7 @@ const Home = () => {
                     })}
                 </ul>
             </div>
+            <Footer />
         </>
     )
 }
