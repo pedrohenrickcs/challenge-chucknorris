@@ -1,4 +1,4 @@
-Url do projeto: [Joke Norris](https://pedrohenrickcs.github.io/challenge-chucknorris)
+Projeto hospedado em: [Joke Norris](https://pedrohenrickcs.github.io/challenge-chucknorris)
 
 ### 🛠 Tecnologias
 
