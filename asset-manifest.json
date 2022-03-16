@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/challenge-chucknorris/static/css/main.d3d2174d.css",
-    "main.js": "/challenge-chucknorris/static/js/main.338a111e.js",
+    "main.css": "/challenge-chucknorris/static/css/main.8286e379.css",
+    "main.js": "/challenge-chucknorris/static/js/main.6e7026f1.js",
     "index.html": "/challenge-chucknorris/index.html",
-    "main.d3d2174d.css.map": "/challenge-chucknorris/static/css/main.d3d2174d.css.map",
-    "main.338a111e.js.map": "/challenge-chucknorris/static/js/main.338a111e.js.map"
+    "main.8286e379.css.map": "/challenge-chucknorris/static/css/main.8286e379.css.map",
+    "main.6e7026f1.js.map": "/challenge-chucknorris/static/js/main.6e7026f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3d2174d.css",
-    "static/js/main.338a111e.js"
+    "static/css/main.8286e379.css",
+    "static/js/main.6e7026f1.js"
   ]
 }
